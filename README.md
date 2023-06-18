@@ -1,1 +1,1 @@
-# Spring-Boot-Angular
+# Spring-Boot-Angular web aplikacija
