@@ -2,18 +2,15 @@
 Središnji dio aplikacije koji je odgovoran za obradu podataka, izvršavanje poslovne logike i komunikaciju s bazama podataka,
 te koji pruža funkcionalnosti i servise koje frontend-Angular dio koristi za daljnji prikaz i manipulaciju. 
 
-Ciljevi izrade ovog projekta:
-  -prikazati poznavanje Java programskog jezika i Spring Boot frameworka
-  -implementacija komunikacije s ugrađenom(in-memory) bazom podataka, korištenje JPA repositoryja te Hibernatea
-  -implementacija poslovne logike pristupa podatcima u servisnom dijelu
-  -
-
-
-
-# Glavni dijelovi aplikacije
-
-
-Repozitorij sloj
--
+Realizirano:
+-implementacija sloja repozitorija za komunkaciju s bazom podataka
+-korištenje Hibernate programskog okvira za dohvaćanje podataka iz baze
+-implementacija servisnog sloja za definiranje poslovne logike
+-implementacija REST kontrolera
+-implementacija autorizacije pomoću JWT tokena
+-korištenje Spring Data JPA
+-internacionalizacija pomoću i18n
+-upotreba Quartz schedulera
+-jUnit testiranje
 
 
